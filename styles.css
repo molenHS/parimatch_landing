@@ -120,6 +120,13 @@ body {
   background: #f8ff14;
 }
 
+@media only screen and (max-width: 600px) {
+    .links-block__bet-link {
+      width: 295px;
+      height: 62px;
+    }
+  }
+
 .links-block__bet-text {
   font-size: 30px;
   font-weight: 700;
