@@ -112,18 +112,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 437px;
-  height: 93px;
+  /* width: 437px; */
+  /* height: 93px; */
   color: #111;
   text-decoration: none;
   transform: skew(-15deg);
   background: #f8ff14;
+  padding: 20px 30px;
 }
 
 @media only screen and (max-width: 600px) {
     .links-block__bet-link {
-      width: 295px;
-      height: 62px;
+      /* width: 295px; */
+      /* height: 62px; */
     }
   }
 
