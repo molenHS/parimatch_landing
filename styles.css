@@ -27,8 +27,8 @@ body {
 
 .car {
   position: absolute;
-  width: 50vw;
-  left: 300px;
+  width: 40vw;
+  left: 350px;
   top: 80px;
   z-index: -1;
 }
