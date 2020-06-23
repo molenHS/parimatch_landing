@@ -2,6 +2,7 @@ body {
   background-image: url("img/bg.png");
   background-position: cover;
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: sans-serif;
 }
 
@@ -78,8 +79,8 @@ body {
 
 @media only screen and (max-width: 600px) {
   .main-section {
-    width: 400px;
     margin-bottom: 0;
+    width: 300px;
   }
 }
 
@@ -119,6 +120,7 @@ body {
   transform: skew(-15deg);
   background: #f8ff14;
   padding: 20px 30px;
+  /* padding: 10px 15px; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -129,7 +131,7 @@ body {
   }
 
 .links-block__bet-text {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   color: #111;
 }
